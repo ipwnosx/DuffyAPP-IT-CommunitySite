@@ -1,4 +1,21 @@
 :root{
     --accent-1: #34b4e9;
     --accent-2: #0b7fd5;
+    --gradient-start: #c6239e;
+    --gradient-end: #537cd3;
+}
+.flex-container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.text h1{
+    text-align: center;
+    font-size: 32pt;
+    background: -webkit-linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
