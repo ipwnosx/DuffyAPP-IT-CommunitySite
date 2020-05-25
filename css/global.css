@@ -1,3 +1,20 @@
+/* Root Variables (temporary, or is it?)*/
+:root{
+    --card-width: 246px;
+    --card-height: 310px;
+    --card-colour: #3a3a3a;
+}
+html{
+    font-family: sans-serif, Arial;
+    background: #0f0f0f;
+}
+.page-content{
+    margin-top: 50px;
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
 
 .nav{
     margin: 0;

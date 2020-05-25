@@ -1,5 +1,7 @@
-.card-fot{
+
+.card-main:not(.card-containter-last){
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 .card-img{
     border-radius: 50%;
@@ -72,6 +74,7 @@
 }
 .social-first-child{
     margin-left: 8px;
+    color: #fff;
 }
 .social-branding{
     width: 32px;
