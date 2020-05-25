@@ -1,0 +1,7 @@
+:root{
+    --accent-1: #6a6a6a;
+    --accent-2: #505050;
+}
+.item-1{
+    animation: hover 4.5s ease infinite forwards
+}
