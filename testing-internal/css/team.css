@@ -1,14 +1,3 @@
-.card-img{
-    border-radius: 50%;
-}
-.flex-root{
-    margin-left: .35rem
-    
-}
-.footer{
-    padding-bottom: 25px;
-    margin-top: 15px;
-}
 .card-main{
     width: 388px;
     height: 226px;
@@ -50,7 +39,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
-.card-member-portrait{
+.card-img{
     width: 144px;
     border-radius: 50%;
     /*
