@@ -15,7 +15,13 @@
 .text h1{
     text-align: center;
     font-size: 32pt;
-    background: -webkit-linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    /*background: -webkit-linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    */
+    color: #fff;
+}
+/* Button Styling */
+.material-button{
+    background: red;
 }
