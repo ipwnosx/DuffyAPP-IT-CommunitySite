@@ -23,5 +23,27 @@
 }
 /* Button Styling */
 .material-button{
-    background: red;
+    background: rgb(13, 193, 238);
+    padding: 15px 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0,.88,.37,.99), background 250ms cubic-bezier(0,.88,.37,.99);
+}
+.material-button:hover{
+    transform: translate3d(0, -1px, 0);
+}
+.material-button:hover:active{
+    transform: translate3d(0, 1px, 0);
+        background: rgb(0, 180, 225);
+}
+.button-container a{
+    text-decoration: none;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
