@@ -73,3 +73,6 @@ html{
         transform: translate3d(0,3px,0);
     }
 }
+html{
+    overflow-x: hidden!important;
+}
