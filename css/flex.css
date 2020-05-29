@@ -1,27 +1,43 @@
 /* -- Navabar Flex -- */
 .nav-flex{
     width: 100vw;
-    height: 75px;
+    height: 64px;
     background: #282828;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.nav-button.flex-first-child{
+.nav-button{
     margin-left: 12px;
+    margin-right: 12px;
 }
-.nav-button.flex-first-child.current_page::after{
-    content: "hi";
+.nav-button.flex-first-child.current_page::before{
+    content: "";
     position: absolute;
-    top: 0;
+    top: -2px;
     left: 0;
-    color: red;
+    border-bottom: 2px solid var(--text-primary);
+    margin-left: inherit;
+    width: 91px;
+    height: 100%;
 }
-.nav-button.flex-first-child{
-    height: 80px;
+.nav-flex a{
+    transition: opacity 250ms var(--decelerated-easing);
+}
+div.nav-flex:hover a:not(:hover):not(.current_page) { 
+    opacity: 0.75;
+}
+.nav-button{
+    height: 64px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-primary);
 }
 .nav-button.flex-first-child img{
-    width: 65px;
-    height: 58px;
+    width: auto;
+    height: 56px;
 }
 /* Navbar Animations + More */

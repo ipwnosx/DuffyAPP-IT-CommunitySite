@@ -3,10 +3,14 @@
     --accent-colour-secondary: #34b4e9; 
     --text-primary: #fff;
     --text-secondary: #000;
-    --bezier-1: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --standard-easing: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --decelerated-easing: cubic-bezier(0.0, 0.0, 0.2, 1);
+    --accelerated-easing: cubic-bezier(0.4, 0.0, 1, 1);
 }
 html{
     background: #1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-primary);
 }
 .page-contents{
     position: absolute;
