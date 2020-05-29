@@ -43,4 +43,12 @@ div.nav-flex:hover .nav-current:not(:hover){
 div.nav-flex:hover a:not(:hover){
     opacity: 0.5;
 }
+div.nav-flex a:not(.nav-current){
+    animation: opacity-in 100ms var(--standard-easing);
+}
+@keyframes opacity-in{
+    from{
+        opacity: 0.5;
+    }
+}
 /* -- Main Page Flex -- */
