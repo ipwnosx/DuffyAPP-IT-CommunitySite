@@ -1,8 +1,0 @@
-/* accent colours, just to make it global and whatnot */
-:root{
-    --accent-1: #5CC8B3;
-    --accent-2: #3BAD97;
-}
-.item-1{
-    animation: hover 4.5s ease infinite forwards
-}

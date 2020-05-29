@@ -1,78 +1,25 @@
-/* Root Variables (temporary, or is it?)*/
 :root{
-    --card-width: 246px;
-    --card-height: 310px;
-    --card-colour: #3a3a3a;
+    --accent-colour-primary: #006fd6; 
+    --accent-colour-secondary: #34b4e9; 
+    --text-primary: #fff;
+    --text-secondary: #000;
+    --bezier-1: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 html{
-    font-family: sans-serif, Arial;
-    background: #0f0f0f;
+    background: #1b1b1b;
 }
-.page-content{
-    margin-top: 50px;
+.page-contents{
     position: absolute;
-    width: 100vw;
-    left: 0;
-    top: 0;
-}
-
-.nav{
-    margin: 0;
-    padding: 0;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 50px!important;
-    position: absolute;
-    justify-content: left;
-    display: flex;
-    background-color: rgba(45, 45, 45, .95);
-    z-index: 1;
-    box-shadow: 0 1px 3px rgba(0,0,0,.15);
-    overflow: hidden;
-    list-style: none;
 }
-.pageheader{
-    text-align: center;
-    color:#fff;
-    font-size: 2.5rem;
+/* Buttons */
+.button.accent-primary{
+    border: 4px solid var(--accent-colour-primary);
+    border-radius: 100px;
+    transition: transform 250ms var(--bezier-1);
+    transform: translate3d(0, 0px, 0);
 }
-.nav-item img{
-    height: 40px;
-    margin-top: 5px;
-    width: auto;
-}
-.nav li{
-    display: flex;
-    align-items: center;
-    transition: background-color 150ms ease;
-}
-.nav li:hover{
-    background: rgba(15,15,15,.15);
-}
-.nav a{
-    height: 50px;
-    width: auto;
-    text-align: center;
-    line-height: 100%;
-    text-decoration: none;
-    color: #fff;
-    padding: 0 10px 0 10px;
-}
-.nav h1 {
-    font-size: 1.5rem;
-}
-@keyframes hover{
-    0% {
-        transform: translate3d(0,3px,0);
-    }
-    50% {
-        transform: translate3d(0,-3px,0);
-    }
-    100%{
-        transform: translate3d(0,3px,0);
-    }
-}
-html{
-    overflow-x: hidden!important;
+.button.accent-primary:hover{
+    transform: translate3d(0, 4px, 0);
 }

@@ -1,0 +1,27 @@
+/* -- Navabar Flex -- */
+.nav-flex{
+    width: 100vw;
+    height: 75px;
+    background: #282828;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-button.flex-first-child{
+    margin-left: 12px;
+}
+.nav-button.flex-first-child.current_page::after{
+    content: "hi";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+}
+.nav-button.flex-first-child{
+    height: 80px;
+}
+.nav-button.flex-first-child img{
+    width: 65px;
+    height: 58px;
+}
+/* Navbar Animations + More */
