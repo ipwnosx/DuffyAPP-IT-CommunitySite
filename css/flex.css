@@ -1,34 +1,17 @@
 /* -- Navabar Flex -- */
 .nav-flex{
     width: 100vw;
-    height: 64px;
+    height: 60px;
     background: #282828;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 .nav-button{
     margin-left: 12px;
     margin-right: 12px;
-}
-.nav-button.flex-first-child.current_page::before{
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: 0;
-    border-bottom: 2px solid var(--text-primary);
-    margin-left: inherit;
-    width: 91px;
-    height: 100%;
-}
-.nav-flex a{
-    transition: opacity 250ms var(--decelerated-easing);
-}
-div.nav-flex:hover a:not(:hover):not(.current_page) { 
-    opacity: 0.75;
-}
-.nav-button{
-    height: 64px;
+    height: 60px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -36,8 +19,27 @@ div.nav-flex:hover a:not(:hover):not(.current_page) {
     text-decoration: none;
     color: var(--text-primary);
 }
+/* Navbar Animations + More */
+.nav-current{
+    box-shadow: inset 0px -4px 0px 0px var(--text-primary);
+}
+.nav-flex a:hover{
+    box-shadow: inset 0px -4px 0px 0px var(--text-primary);
+}
+.nav-flex a{
+    transition: opacity 100ms 0ms var(--standard-easing), box-shadow 235ms 0ms var(--standard-easing);
+}
+div.nav-flex:hover .nav-current:not(:hover){
+    box-shadow: inset 0 0 0 0 var(--text-primary);
+}
+div.nav-flex:hover a:not(:hover){
+    opacity: 0.5;
+}
+
 .nav-button.flex-first-child img{
     width: auto;
-    height: 56px;
+    height: 36px;
 }
-/* Navbar Animations + More */
+.nav-flex a{
+    text-decoration: none!important;
+}
