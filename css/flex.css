@@ -18,6 +18,14 @@
     align-items: center;
     text-decoration: none;
     color: var(--text-primary);
+    font-size: 9pt;
+}
+.nav-button.flex-first-child img{
+    width: auto;
+    height: 36px;
+}
+.nav-flex a{
+    text-decoration: none!important;
 }
 /* Navbar Animations + More */
 .nav-current{
@@ -35,11 +43,4 @@ div.nav-flex:hover .nav-current:not(:hover){
 div.nav-flex:hover a:not(:hover){
     opacity: 0.5;
 }
-
-.nav-button.flex-first-child img{
-    width: auto;
-    height: 36px;
-}
-.nav-flex a{
-    text-decoration: none!important;
-}
+/* -- Main Page Flex -- */
