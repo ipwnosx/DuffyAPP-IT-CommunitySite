@@ -3,42 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DuffyAPP-IT Landing</title>
-    <link rel="stylesheet" type="text/css" href="css/global.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/flexglobal.css">
-    <link rel="icon" href="favicon.png">
+    <title>DuffyAPP Landing</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/flex.css">
 </head>
 <body>
-    <ul class="nav">
-        <li><a href="index.html" class="nav-item"><img src="../img/branding/DuffyAPP/9.png"></a></li>
-        <li><a href="downloads.html" class="nav-item"><h1>Downloads</h1></a></li>
-        <li><a href="team.html" class="nav-item"><h1>Team</h1></a></li>
-    </ul>
-    <div class="page-content">
-        <div class="flex-container-main">
-            <img src="img/branding/DuffyAPP/3Dark.png">
-            <div class="text">
-                <h1>
-                    Hello! We’re the ones who made
-                    <br>UltraRestoreX, iLibX, and DiagBootX
-                </h1>
-            </div>
-            <div class="button-container">
-                <a href=""><div  class="material-button button-accent1">Downloads Here</div></a>
-            </div>
-            <div class="text" style="margin-top: 2rem">
-                <h1>
-                        To meet more about our team,
-                    <br>Here's our all of our team that have
-                    <br>chosen to list themselves publicly
-                </h1>
-            </div>
-            <div class="button-container">
-                <a href="team.html"><div class="material-button button-accent1">Our Team</div></a>
+    <div class="page-contents">
+        <!-- Navigation Elements always on top for every page. -->
+        <div class="nav-flex">
+            <a href="index.html" class="nav-current"><div class="nav-button flex-first-child"><img alt="DuffyAPP Branding" src="media/img/branding/DuffyAPP/company_branding/1.png"></div></a>
+            <a href="downloads.html"><div class="nav-button"><h1>Downloads</h1></div></a>
+            <a href="team.html"><div  class="nav-button"><h1>Team</h1></div></a>
+        </div>
+        <!-- The rest of the page contents go below here -->
+        <div class="page-main">
+            <div class="page-flex">
+                <img alt="DuffyAPP Branding" class="flex-item" src="media/img/branding/DuffyAPP/company_branding/3Dark.png">
+                <h1 class="flex-item">UltraRestoreX & More downloads here.</h1>
+                <a class="button accent-primary downloads flex-item" href="downloads.html">Downloads Here</a>
             </div>
         </div>
     </div>
 </body>
 </html>
-<!-- Copyright DuffyAPP-IT; For whoever's snooping through this, my main focus is CSS, not HTML, as you clearly can tell. Also, Hi c: -->
