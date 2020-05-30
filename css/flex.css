@@ -13,12 +13,13 @@
     margin-right: 12px;
     height: 60px;
     width: auto;
-    display: flex;
-    justify-content: center;
+    display:flex;
     align-items: center;
+    align-content: center;    
+    justify-content: center;
     text-decoration: none;
     color: var(--text-primary);
-    font-size: 9pt;
+    font-size: 10pt;
 }
 .nav-button.flex-first-child img{
     width: auto;
@@ -102,7 +103,6 @@ div.nav-flex a:not(.nav-current){
     flex-direction: column;
     width: 194px;
     height: 144px;
-    margin: 12px;
 }
 .flex-card-text h1{
     font-size: 18pt;
