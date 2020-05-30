@@ -66,7 +66,8 @@ div.nav-flex a:not(.nav-current){
     justify-content: center;
     flex-wrap: wrap;
     flex-grow: 0;
-    margin-top: 106px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .page-flex .item{
     margin: 30px;
