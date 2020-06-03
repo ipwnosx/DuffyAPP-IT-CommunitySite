@@ -1,7 +1,7 @@
 .page-flex-horizontal .flex-card-container{
     animation-name: card-in;
     animation-delay: calc(var(--card) * 25ms);
-    animation-duration: 250ms;
+    animation-duration: 200ms;
     animation-fill-mode: both;
     animation-timing-function: var(--decelerated-easing)
 }
