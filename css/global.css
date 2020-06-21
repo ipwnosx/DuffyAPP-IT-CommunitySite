@@ -24,7 +24,7 @@ html{
 }
 
 /* Buttons */
-.button.accent-primary{
+.button{
     border: 4px solid var(--accent-secondary);
     border-radius: 100px;
     transform: translate3d(0, 0px, 0);
@@ -36,14 +36,28 @@ html{
     text-decoration: none;
     transition: transform 100ms var(--standard-easing), background 150ms var(--standard-easing), color 150ms var(--standard-easing), box-shadow 150ms var(--standard-easing);
 }
-.button.accent-primary:hover{
+.button:hover{
     box-shadow: 0 5px 5px 0px var(--shadow-hover);
+}
+.accent-primary{
+    color: var(--accent-secondary);
+    border: 4px solid var(--accent-secondary)
+}
+.accent-primary:hover{
     background: var(--accent-secondary);
     color: var(--text-primary);
 }
-.button.accent-primary:hover:active{
+.button:hover:active{
     transform: translate3d(0, 2px, 0);
     box-shadow: 0 2px 2px 0 var(--shadow-hover);
+}
+.button.application-accent{
+    border: 4px solid var(--application-accent-primary);
+    color: var(--application-accent-primary);
+}
+.application-accent:hover{
+    background: var(--application-accent-primary);
+    color: var(--text-primary);
 }
 /*Smaller Scaled Buttons*/
 .button2.accent-white{

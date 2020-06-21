@@ -60,6 +60,13 @@ div.nav-flex a:not(.nav-current){
     flex-direction: column;
     margin-top: 106px;
 }
+.page-flex-centered-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: calc(100vh - 60px);
+}
 .page-flex-centered-absolute{
     display: flex;
     align-items: center;
@@ -157,6 +164,7 @@ div.nav-flex a:not(.nav-current){
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
+    margin: 15px;
 }
 .media-card-text{
     display: flex;
