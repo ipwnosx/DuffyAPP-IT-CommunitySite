@@ -60,6 +60,13 @@ div.nav-flex a:not(.nav-current){
     flex-direction: column;
     margin-top: 106px;
 }
+.page-flex-centered-absolute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
 .page-flex-horizontal{
     display: flex;
     align-items: center;
@@ -141,6 +148,44 @@ div.nav-flex a:not(.nav-current){
 }
 
 /* Media Cards */
+.flex-imagebased-card-c{
+    width: 230px;
+    height: 345px;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.media-card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .flex-card-media{
     border-radius: 50%;
+    width: 180px;
+}
+
+/* Page Media Flex */
+.page-media-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  row;
+}
+.page-media-flex .container{
+    margin: 50px;
+}
+.large-page-media .ultrarestorex-interface{
+    width: 750px;
+}
+/* Text Flex */
+.text-flex-vertical-alignment{
+    display:flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
 }
