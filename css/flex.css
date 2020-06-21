@@ -149,8 +149,8 @@ div.nav-flex a:not(.nav-current){
 
 /* Media Cards */
 .flex-imagebased-card-c{
-    width: 230px;
-    height: 345px;
+    width: 345px;
+    height: 415px;
     background: #282828;
     display: flex;
     justify-content: center;
