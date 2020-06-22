@@ -65,6 +65,7 @@ div.nav-flex a:not(.nav-current){
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     height: calc(100vh - 60px);
 }
 .page-flex-centered-absolute{
